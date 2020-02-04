@@ -1,0 +1,8 @@
+body {
+    background-image: url(thumb-1920-577489.jpg);
+    background-size: contain;
+}
+
+button {
+    cursor: zoom-in;
+}

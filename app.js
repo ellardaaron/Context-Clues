@@ -19,7 +19,7 @@ for (var i = 0; i < 101; i++) {
 function displayAccusation (index) {
     return function (e) {
         var accusationNumber = e.target.innerText
-        alert (accusationNumber + ": I think" + friends [index % friends.length] + " did it in the " + locations [index % locations.length] + " with the " + weapon [index % weapon.length])
+        alert (accusationNumber + ": I think " + friends [index % friends.length] + " did it in the " + locations [index % locations.length] + " with the " + weapons [index % weapons.length])
     }
 }
 
